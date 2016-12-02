@@ -275,7 +275,7 @@ angular.module('ui.calendar', [])
                         if (attrs.calendar) {
                             calendar = uiCalendarConfig.calendars[attrs.calendar] = angular.element(elm).html('');
                         } else {
-                            calendar = angular.element(elm).html('');
+                            calendar = $(elm).html(''); // calendar = angular.element(elm).html('');
                         }
                     };
 

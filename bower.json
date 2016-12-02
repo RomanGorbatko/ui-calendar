@@ -1,5 +1,5 @@
 {
-  "name": "angular-ui-calendar",
+  "name": "rg-angular-ui-calendar",
   "version": "1.0.2",
   "description": "A complete AngularJS directive for the Arshaw FullCalendar.",
   "author": "https://github.com/angular-ui/ui-calendar/graphs/contributors",
@@ -18,7 +18,7 @@
   "dependencies": {
     "angular": ">=1.4.x",
     "jquery": "~2.1.4",
-    "fullcalendar": "~2.7.1",
+    "rg-fullcalendar": "^3.0.1",
     "moment": ">=2.5.0"
   },
   "devDependencies": {
